@@ -1,0 +1,33 @@
+.InfoBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 6px;
+    padding: 8px;
+  }
+  
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    width: 100%; 
+    padding: 7px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    background: linear-gradient(135deg, #cae5f0, #f3cdd2);
+  }
+  
+  .cardContainer .MuiTypography-root {
+    font-size: 14px; 
+  }
+  
+  .cardContainer .MuiCardContent-root {
+    padding: 5px; 
+  }
+  
+  .cardContainer .MuiCardMedia-root {
+    height: 100px;
+  }
+  
