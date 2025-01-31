@@ -52,7 +52,7 @@ export default function InfoBox({ info }) {
               color="text.secondary"
               component={"span"}
             >
-              <p>Tempratre: {info.temp}&deg;C</p>
+              <p>Temperature: {info.temp}&deg;C</p>
               <p>Humidity: {info.humidity}</p>
               <p>Min Temp: {info.tempMin}&deg;C</p>
               <p>Max Temp: {info.tempMax}&deg;C</p>
